@@ -47,7 +47,7 @@ function init() {
 }
 
 function check() {
-  const userLetter = letterInput.value.trim();
+  const userLetter = letterInput.value.trim().toLowerCase();
 
   if (userLetter.length !== 1) return endOfTurn('Введите одну букву');
 
