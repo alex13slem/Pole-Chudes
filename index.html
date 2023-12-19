@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Поле чудес</title>
+  </head>
+
+  <body>
+    <video src="assets/video.mp4" loop muted autoplay></video>
+    <main>
+      <h1 id="hints"></h1>
+
+      <p>Количество попыток: <output id="attempts"></output></p>
+      <button id="start">Новая игра</button>
+      <h2>
+        <b><output id="tablo"></output></b>
+      </h2>
+      <input type="text" id="letter" />
+      <button id="check">Проверить букву</button>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
