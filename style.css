@@ -19,6 +19,7 @@ body {
   min-height: 100svh;
   overflow: clip;
   padding: 6.66px;
+  background: #000;
 }
 
 video {
